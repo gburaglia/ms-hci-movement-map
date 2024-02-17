@@ -1,0 +1,67 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/*
+ * Extra utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.flex-equal > * {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+.bg-customgrey {
+    background-color: #D4D4D4 !important; /* Custom grey background color */
+}
+.bg-customlightgrey {
+  background-color: #F1F1F1 !important; /* Custom light gray background color */
+}
+.bg-customblack {
+  background-color: #2B2B2B !important; /* Custom black background color */
+}
+
+.white-text {
+  color: white !important;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+.site-header {
+  font-family: "League Spartan", sans-serif;
+
+}
